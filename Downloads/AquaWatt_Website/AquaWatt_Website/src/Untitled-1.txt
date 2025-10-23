@@ -1,0 +1,2 @@
+import { firebaseConfigured } from '@/lib/firebase';
+console.log('firebaseConfigured', firebaseConfigured);

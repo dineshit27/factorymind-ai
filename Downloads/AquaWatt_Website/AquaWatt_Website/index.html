@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>AquaWatt | Resource Tracker </title>
+    <meta name="description" content="Analyse the water and electricity usage" />
+    <meta name="author" content="Dinesh" />
+    <script>
+      (function() {
+        try {
+          var root = document.documentElement;
+          root.classList.remove('dark');
+          root.classList.add('light');
+          localStorage.setItem('theme', 'light');
+        } catch (e) {
+          // no-op
+        }
+      })();
+    </script>
+  <!-- Open Graph image intentionally removed -->
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/favicon.ico" />
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
