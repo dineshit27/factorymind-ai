@@ -62,4 +62,125 @@ The platform enables businesses to improve **efficiency, productivity, predictiv
 
 ## 📂 Project Structure
 
+**Root Path:** `c:\Users\dinesh\Downloads\factory-energy-ai-main`
 
+```
+├── 📁 factory-energy-ai-main
+│   ├── 📁 database
+│   │   └── 📄 setup.sql
+│   ├── 📁 public
+│   │   ├── 📄 favicon.ico
+│   │   ├── 🖼️ placeholder.svg
+│   │   └── 📄 robots.txt
+│   ├── 📁 src
+│   │   ├── 📁 assets
+│   │   │   └── 🖼️ hero-factory.jpg
+│   │   ├── 📁 components
+│   │   │   ├── 📁 ui
+│   │   │   │   ├── 📄 accordion.tsx
+│   │   │   │   ├── 📄 alert-dialog.tsx
+│   │   │   │   ├── 📄 alert.tsx
+│   │   │   │   ├── 📄 aspect-ratio.tsx
+│   │   │   │   ├── 📄 avatar.tsx
+│   │   │   │   ├── 📄 badge.tsx
+│   │   │   │   ├── 📄 breadcrumb.tsx
+│   │   │   │   ├── 📄 button.tsx
+│   │   │   │   ├── 📄 calendar.tsx
+│   │   │   │   ├── 📄 card.tsx
+│   │   │   │   ├── 📄 carousel.tsx
+│   │   │   │   ├── 📄 chart.tsx
+│   │   │   │   ├── 📄 checkbox.tsx
+│   │   │   │   ├── 📄 collapsible.tsx
+│   │   │   │   ├── 📄 command.tsx
+│   │   │   │   ├── 📄 context-menu.tsx
+│   │   │   │   ├── 📄 dialog.tsx
+│   │   │   │   ├── 📄 drawer.tsx
+│   │   │   │   ├── 📄 dropdown-menu.tsx
+│   │   │   │   ├── 📄 form.tsx
+│   │   │   │   ├── 📄 hover-card.tsx
+│   │   │   │   ├── 📄 input-otp.tsx
+│   │   │   │   ├── 📄 input.tsx
+│   │   │   │   ├── 📄 label.tsx
+│   │   │   │   ├── 📄 menubar.tsx
+│   │   │   │   ├── 📄 navigation-menu.tsx
+│   │   │   │   ├── 📄 pagination.tsx
+│   │   │   │   ├── 📄 popover.tsx
+│   │   │   │   ├── 📄 progress.tsx
+│   │   │   │   ├── 📄 radio-group.tsx
+│   │   │   │   ├── 📄 resizable.tsx
+│   │   │   │   ├── 📄 scroll-area.tsx
+│   │   │   │   ├── 📄 select.tsx
+│   │   │   │   ├── 📄 separator.tsx
+│   │   │   │   ├── 📄 sheet.tsx
+│   │   │   │   ├── 📄 sidebar.tsx
+│   │   │   │   ├── 📄 skeleton.tsx
+│   │   │   │   ├── 📄 slider.tsx
+│   │   │   │   ├── 📄 sonner.tsx
+│   │   │   │   ├── 📄 switch.tsx
+│   │   │   │   ├── 📄 table.tsx
+│   │   │   │   ├── 📄 tabs.tsx
+│   │   │   │   ├── 📄 textarea.tsx
+│   │   │   │   ├── 📄 toast.tsx
+│   │   │   │   ├── 📄 toaster.tsx
+│   │   │   │   ├── 📄 toggle-group.tsx
+│   │   │   │   ├── 📄 toggle.tsx
+│   │   │   │   ├── 📄 tooltip.tsx
+│   │   │   │   └── 📄 use-toast.ts
+│   │   │   ├── 📄 Footer.tsx
+│   │   │   ├── 📄 NavLink.tsx
+│   │   │   └── 📄 Navbar.tsx
+│   │   ├── 📁 contexts
+│   │   │   ├── 📄 AuthContext.tsx
+│   │   │   └── 📄 DiagnosisContext.tsx
+│   │   ├── 📁 hooks
+│   │   │   ├── 📄 use-mobile.tsx
+│   │   │   └── 📄 use-toast.ts
+│   │   ├── 📁 lib
+│   │   │   ├── 📄 api.ts
+│   │   │   ├── 📄 calculations.ts
+│   │   │   ├── 📄 supabase.ts
+│   │   │   └── 📄 utils.ts
+│   │   ├── 📁 pages
+│   │   │   ├── 📄 About.tsx
+│   │   │   ├── 📄 CalibrationPage.tsx
+│   │   │   ├── 📄 Community.tsx
+│   │   │   ├── 📄 ContactUs.tsx
+│   │   │   ├── 📄 Dashboard.tsx
+│   │   │   ├── 📄 DiagnosisPage.tsx
+│   │   │   ├── 📄 Index.tsx
+│   │   │   ├── 📄 Login.tsx
+│   │   │   ├── 📄 NotFound.tsx
+│   │   │   └── 📄 ResultsPage.tsx
+│   │   ├── 📁 test
+│   │   │   ├── 📄 example.test.ts
+│   │   │   └── 📄 setup.ts
+│   │   ├── 🎨 App.css
+│   │   ├── 📄 App.tsx
+│   │   ├── 🎨 index.css
+│   │   ├── 📄 main.tsx
+│   │   └── 📄 vite-env.d.ts
+│   ├── ⚙️ .env.example
+│   ├── ⚙️ .gitignore
+│   ├── 📝 README.md
+│   ├── 📝 SETUP.md
+│   ├── 📄 bun.lockb
+│   ├── ⚙️ components.json
+│   ├── 📄 eslint.config.js
+│   ├── 🌐 index.html
+│   ├── ⚙️ package-lock.json
+│   ├── ⚙️ package.json
+│   ├── 📄 postcss.config.js
+│   ├── 📄 tailwind.config.ts
+│   ├── ⚙️ tsconfig.app.json
+│   ├── ⚙️ tsconfig.json
+│   ├── ⚙️ tsconfig.node.json
+│   ├── 📄 vite.config.ts
+│   └── 📄 vitest.config.ts
+├── ⚙️ .firebaserc
+├── ⚙️ .gitignore
+├── ⚙️ firebase.json
+├── ⚙️ package-lock.json
+└── ⚙️ package.json
+```
+
+---
