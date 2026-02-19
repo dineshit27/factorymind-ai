@@ -184,3 +184,24 @@ The platform enables businesses to improve **efficiency, productivity, predictiv
 ```
 
 ---
+
+## Contributing 🤝
+
+Contributions are welcome! If you’d like to improve this project or add features, feel free to:
+
+1. Fork the repo.
+2. Create a new branch.
+3. Submit a pull request.
+
+I appreciate all suggestions for enhancement! 🙏
+
+---
+
+## Contact Me 📬
+
+Let’s connect:
+
+[![m.dinesh.it27@gmail.com](https://img.shields.io/badge/Contact%20me-m.dinesh.it27@gmail.com-red)](mailto:m.dinesh.it27@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Dinesh.M-blue)](https://www.linkedin.com/in/m-dinesh-d30/)
+[![Instagram](https://img.shields.io/badge/Instagram-dinx_pvt_430-darkpink)](https://www.instagram.com/_dinx_pvt_430)
+[![GitHub](https://img.shields.io/badge/GitHub-dineshit27-yellow)](https://github.com/dineshit27)
